@@ -1,0 +1,17 @@
+.Dog {
+  margin: 2rem;
+}
+.Dog img {
+  border-radius: 50%;
+  width: 300px;
+}
+.Dog a {
+  display: block;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.DogList-item {
+  display: flex;
+  justify-content: space-around;
+}

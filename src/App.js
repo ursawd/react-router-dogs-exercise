@@ -8,7 +8,6 @@ import DogList from "./DogList";
 import DogDetails from "./DogDetails";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 function App(props) {
-  console.log(props.dogs);
   const dogNames = props.dogs.map((dog) => dog.name);
   const listInfo = props.dogs.map((dog) => ({
     name: dog.name,

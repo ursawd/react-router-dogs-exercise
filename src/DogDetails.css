@@ -1,0 +1,16 @@
+.DogDetails img {
+  width: 400px;
+  border-radius: 20%;
+  margin-top: 2rem;
+}
+.DogDetails p {
+  font-weight: bolder;
+}
+.DogDetails-facts li {
+  width: 400px;
+  margin: auto auto;
+  font-weight: normal;
+  text-align: left;
+  background-color: rgb(250, 239, 222);
+  font-size: 1.1rem;
+}
